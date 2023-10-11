@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "name": "ratham-yarn-monorepo",
+    "version": "1.0.0",
+    "workspaces": {
+      "packages": ["packages/*"], 
+      "nohoist": [
+        "**/shared-hello"
+      ]
+    }
+  }
+  
